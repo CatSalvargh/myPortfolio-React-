@@ -13,6 +13,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.about-image {
+  width: 30%;
+  min-width: 300px;
+  height: auto
+}
+.about-image img {
+  width: 100%
+}
+
+.slider-pages {
+  display: flex;
+  justify-content: flex-end;
+  width: 80vw;
+  gap: 2rem
+}
+
+li {
+  list-style: none
+}
+
+.slider-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  height: 80vh;
+  width: 80vw;
+}
+
 a {
   font-weight: 500;
   text-decoration: none;
