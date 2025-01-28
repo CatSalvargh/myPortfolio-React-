@@ -5,7 +5,8 @@ function Nav(props) {
     let ids = 0
     const navItems = props.items
     const navList = navItems.map(item => 
-            <li id={`${ids++}-${item}`}className="slider-tab"><a>{item}</a>
+            <li id={`${ids++}-${item}`} className="slider-tab">
+                        <a href={item}>{item}</a> 
             </li>);
 
     return(
