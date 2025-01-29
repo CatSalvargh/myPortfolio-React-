@@ -1,22 +1,27 @@
-import Nav from './Nav.jsx'
-import Slider from './Slider.jsx'
-import SliderItem from './SliderItem.jsx'
+import './App.css'
+import { HashRouter as Router, Routes, Route} from 'react-router-dom'
+import Home from './pages/home.jsx';
+import About from './pages/About.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
+import Layout from './Layout.jsx';
 
 function App() {
-  const pageTitles = ['HOME', 'ABOUT', 'PROJECTS', 'CONTACT']
 
-  return (
-    <>
-      <Nav items={pageTitles}/>
-      <Slider> 
-            <SliderItem name="Home" img='/src/assets/ID-pic-greenbback.png' />
-            <SliderItem name="About" img='/src/assets/AboutMe2.jpg'/>
-            <SliderItem name="Projects" img='/src/assets/Project-2-cars.jpg'/>
-            <SliderItem name="Contact" img='/src/assets/github.png'/>
-      </Slider>
-    </>
-  )
+    return (
+      <Router>
+          <Routes>
+            <Route element={<Layout/>}>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/home" element={<Home/>}/>
+              <Route path="/about" element={<About/>}/>
+              <Route path="/projects" element={<Projects />}/>
+              <Route path="/contact" element={<Contact />}/>
+            </Route>
+          </Routes>
+
+      </Router>
+  );
 }
 
 export default App
-
