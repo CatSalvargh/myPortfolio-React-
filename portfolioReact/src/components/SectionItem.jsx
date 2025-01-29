@@ -5,7 +5,7 @@ function SliderItem(props) {
     const pageImage = props.img
 
     return(
-        <div id={`${pageTitle.toLowerCase()}-section`} className="section-content">
+            <div id={`${pageTitle.toLowerCase()}-section`} className="section-content">
             <div id={`${pageTitle.toLowerCase()}-image`} className="section-image">
                 <img src={pageImage} alt="Profile Picture"/>
             </div>
@@ -16,7 +16,7 @@ function SliderItem(props) {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero dicta, officiis maxime quidem, omnis facere eligendi amet repellendus id voluptatum minima repudiandae sapiente consequuntur, cumque illo quod explicabo quasi!
                 </p>
             </div>
-        </div>
+            </div>
       );
 }
 
@@ -29,3 +29,4 @@ export default SliderItem
 
 // {`"section-image ${pageTitle}-img"` }
 // {`"section-content  ${pageTitle}-img"`}
+  
