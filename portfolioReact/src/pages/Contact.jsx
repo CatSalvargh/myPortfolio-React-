@@ -1,13 +1,13 @@
-import Slider from '../components/Slider.jsx'
-import SliderItem from '../components/SliderItem.jsx'
+import Section from '../components/Section.jsx'
+import SectionItem from '../components/SectionItem.jsx'
 
 function Contact() {
 
   return (
     <>
-    <Slider> 
-    <SliderItem name="Contact" img='/src/assets/github.png' />
-    </Slider>
+    <Section> 
+    <SectionItem name="Contact" img='/src/assets/github.png' />
+    </Section>
     </>
   )
 }
