@@ -1,8 +1,8 @@
 
-export default ({children}) => {
+export default ({children, classN}) => {
 
     return(
-        <section className="section-container slider-container">
+        <section className={classN}>
                 {children}
         </section>
     );

@@ -5,8 +5,8 @@ export default () => {
 
   return (
     <>
-      <Section> 
-          <SectionItem name="Home" img='/src/assets/ID-pic-greenbback.png' />
+      <Section classN="section-container home-section"> 
+          <SectionItem name="Home" image={true} img='/src/assets/ID-pic-greenbback.png' />
       </Section>
     </>
   )

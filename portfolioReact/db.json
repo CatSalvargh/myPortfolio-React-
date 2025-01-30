@@ -1,0 +1,12 @@
+{
+	"projects": [
+				{"id": 3,
+				"name": "Projects",
+				"image": "{false}",
+				"content": {
+				"subtitle":  "Ellen Grace & Co.",
+				"projectID": "P4-Fashion",
+				"text": "This is a project customized for fashion boutique Ellen Grace & Co. Like he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
+				}
+	]
+}

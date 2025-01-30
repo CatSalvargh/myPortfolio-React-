@@ -5,8 +5,8 @@ function Contact() {
 
   return (
     <>
-    <Section> 
-    <SectionItem name="Contact" img='/src/assets/github.png' />
+    <Section classN="section-container contact-section"> 
+    <SectionItem name="Contact" image={true} img='/src/assets/github.png' />
     </Section>
     </>
   )
