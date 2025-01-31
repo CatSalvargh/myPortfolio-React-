@@ -5,10 +5,20 @@ import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-
 import { EffectCube, Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 export default function Slider() {
+
+  const [swiperRef, setSwiperRef] = useState(null);
+ 
+  const prevHandler = () => {
+    swiperRef.slidePrev();
+  };
+
+  const nextHandler = () => {
+    swiperRef.slideNext();
+  };
+
   return (
     <>
       <Swiper
@@ -22,47 +32,37 @@ export default function Slider() {
           shadowScale: 0.94,
         }}
         pagination={{
+          clickable: true,
           type: 'fraction',
         }}
         navigation={false}
-        
+        onSwiper={(swiper) => setSwiperRef(swiper)}
         autoplay={{
-          delay: 3500,
+          delay: 2500,
           disableOnInteraction: false,
-           }}
+            }}
         className="mySwiper"
       >
 
         <SwiperSlide>
-          <a href="#/"><img src="./src/assets/Project-4-Fashion-sq.jpg" data-swiper-autoplay="3000"/></a>
-          <h3>Fashion Designer</h3>
+          <img src="./src/assets/Project-4-Fashion-sq.jpg" data-swiper-autoplay="3000"   />
+          <h3 id='1' className='slideTitle'>Fashion Designer</h3>
         </SwiperSlide>
         <SwiperSlide>
           <img src="./src/assets/Project-2-cars.jpg" />
-          <h3>Classic Car Rental</h3>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src="./src/assets/Project-3-Hotel-sq.jpg"  />
-          <h3>Grand Hotel</h3>
+          <h3 id='P1-ClassicHC'>Classic Car Rental</h3>
         </SwiperSlide>
         <SwiperSlide>
           <img src="./src/assets/Project-5-Volunteer.jpg" />
-          <h3>White Bean Caritative</h3>
+          <h3 id='P3-WBCaritative'>White Bean Caritative</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="./src/assets/Project-3-Hotel-sq.jpg"  />
+          <h3 id='P4-GrandHotel'>Grand Hotel</h3>
         </SwiperSlide>
       </Swiper>
-    </>
+      <button className="slider-btn" onClick={prevHandler}>Prev</button>
+      <button className="slider-btn" onClick={nextHandler}>Next</button>
+     </>
   );
 }
-
-{/* <SwiperSlide>
-<a href="#/"><img src="https://swiperjs.com/demos/images/nature-1.jpg" /></a>
-</SwiperSlide>
-<SwiperSlide>
-<img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-</SwiperSlide>
-<SwiperSlide>
-<img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-</SwiperSlide>
-<SwiperSlide>
-<img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-</SwiperSlide> */}

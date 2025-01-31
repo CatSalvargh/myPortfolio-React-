@@ -6,6 +6,7 @@ function SliderItem(props) {
     const image = props.image
     const subtitle = props.subtitle
     const text = props.text
+    const id = props.id
 
     return(
             <div id={`${pageTitle.toLowerCase()}-section`} className="section-content">
@@ -16,9 +17,8 @@ function SliderItem(props) {
          
             <div className="section-text">
                 <h1>{pageTitle}</h1>
-                <h2>{props.subtitle}</h2>
-                <p>{props.text}</p>
-                <p><br/><br/><br/>← Drag each picture to see more projets</p>
+                <h2>{subtitle}</h2>
+                <p>{text}</p>
             </div>
             </div>
       );

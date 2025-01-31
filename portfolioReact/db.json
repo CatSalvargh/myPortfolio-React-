@@ -1,12 +1,76 @@
 {
 	"projects": [
-				{"id": 3,
+				{"id": "p2",
 				"name": "Projects",
 				"image": "{false}",
+				"img": "",
 				"content": {
 				"subtitle":  "Ellen Grace & Co.",
-				"projectID": "P4-Fashion",
-				"text": "This is a project customized for fashion boutique Ellen Grace & Co. Like he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
+				"projectID": "P2-FashionEllen",
+				"text": "This is a customized  project  for a fashion boutique, Ellen Grace & Co. \nLike he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
+				},
+
+	
+				{"id": "P1",
+				"name": "Projects",
+				"image": "{false}",
+				"img": "",
+				"content": {
+				"subtitle":  "P1-ClassicHC",
+				"projectID": "P4-FashionEllen",
+				"text": "This is a customized  project  for a fashion boutique, Ellen Grace & Co. \nLike he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
+				},
+				
+				{"id": "P3",
+				"name": "Projects",
+				"image": "{false}",
+				"img": "",
+				"content": {
+				"subtitle":  "P3-WBCaritative",
+				"projectID": "P4-FashionEllen",
+				"text": "This is a customized  project  for a fashion boutique, Ellen Grace & Co. \nLike he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
+				},
+				
+				{"id": "P4",
+				"name": "Projects",
+				"image": "{false}",
+				"img": "",
+				"content": {
+				"subtitle":  "P4-GrandHotel",
+				"projectID": "P4-FashionEllen",
+				"text": "This is a customized  project  for a fashion boutique, Ellen Grace & Co. \nLike he boutique, the website looks to embody elegance, creativity, and sophistication. Designed to captivate style-conscious visitors, the website features a sleek, modern aesthetic with vibrant visuals, fluid animations, and an intuitive user experience. \nDynamic look-books, interactive galleries, and a refined color palette create a luxurious digital experience, reflecting the brands artistry and prestige. Custom typography, subtle motion effects, and a responsive design ensure flawless performance across all devices. Integrated social media and blog sections keep clients engaged with the latest trends, events, and behind-the-scenes exclusives. \nOur team does not just create standard websites, but sites that are a digital extension of each brands identity to create a stunning online presence that leaves a lasting impression on your potential customers."}
 				}
-	]
+	],
+
+	"home": [{"id": "P5",
+			"name": "Home",
+			"image": "{true}",
+			"img": "",
+			"content": {
+			"subtitle":  "",
+			"projectID": "home1",
+			"text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem saepe voluptate quod reiciendis quibusdam dolore, error tenetur excepturi atque aliquam sunt magnam tempore modi nihil ab autem tempora quasi fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum consectetur porro voluptatibus esse! Nam nulla quasi veniam laborum et voluptate quod delectus! Ullam reprehenderit qui quidem dolor nam officia alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque iste dicta, dolorum, quis itaque praesentium officia dolorem cum aliquid libero minus mollitia quibusdam earum quia nobis voluptate? Rerum, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio impedit dignissimos officiis quo ab, at neque qui perspiciatis tempora! Debitis incidunt obcaecati eum quidem? Rerum dolore similique iste id praesentium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias maxime consequuntur necessitatibus quaerat, expedita distinctio, dolor vel nisi sit accusamus nihil laborum rerum nulla modi provident? Doloremque, eveniet laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nihil, ratione culpa, esse doloribus pariatur repellat, voluptas mollitia enim est reprehenderit aspernatur. Quod expedita odio fuga ratione suscipit assumenda necessitatibus!"}
+			}],
+
+	"about": [{"id": "P5",
+			"name": "About",
+			"image": "{true}",
+			"img": "",
+			"content": {
+			"subtitle":  "",
+			"projectID": "about1",
+			"text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem saepe voluptate quod reiciendis quibusdam dolore, error tenetur excepturi atque aliquam sunt magnam tempore modi nihil ab autem tempora quasi fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum consectetur porro voluptatibus esse! Nam nulla quasi veniam laborum et voluptate quod delectus! Ullam reprehenderit qui quidem dolor nam officia alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque iste dicta, dolorum, quis itaque praesentium officia dolorem cum aliquid libero minus mollitia quibusdam earum quia nobis voluptate? Rerum, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio impedit dignissimos officiis quo ab, at neque qui perspiciatis tempora! Debitis incidunt obcaecati eum quidem? Rerum dolore similique iste id praesentium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias maxime consequuntur necessitatibus quaerat, expedita distinctio, dolor vel nisi sit accusamus nihil laborum rerum nulla modi provident? Doloremque, eveniet laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nihil, ratione culpa, esse doloribus pariatur repellat, voluptas mollitia enim est reprehenderit aspernatur. Quod expedita odio fuga ratione suscipit assumenda necessitatibus!"}
+			}],
+
+	"contact": [{"id": "P5",
+			"name": "Contact",
+			"image": "{true}",
+			"img": "",
+			"content": {
+			"subtitle":  "Get in touch!",
+			"projectID": "contact1",
+			"text": " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem saepe voluptate quod reiciendis quibusdam dolore, error tenetur excepturi atque aliquam sunt magnam tempore modi nihil ab autem tempora quasi fugiat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum consectetur porro voluptatibus esse! Nam nulla quasi veniam laborum et voluptate quod delectus! Ullam reprehenderit qui quidem dolor nam officia alias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque iste dicta, dolorum, quis itaque praesentium officia dolorem cum aliquid libero minus mollitia quibusdam earum quia nobis voluptate? Rerum, quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio impedit dignissimos officiis quo ab, at neque qui perspiciatis tempora! Debitis incidunt obcaecati eum quidem? Rerum dolore similique iste id praesentium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non molestias maxime consequuntur necessitatibus quaerat, expedita distinctio, dolor vel nisi sit accusamus nihil laborum rerum nulla modi provident? Doloremque, eveniet laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nihil, ratione culpa, esse doloribus pariatur repellat, voluptas mollitia enim est reprehenderit aspernatur. Quod expedita odio fuga ratione suscipit assumenda necessitatibus!"}
+		}]
 }
+
+
